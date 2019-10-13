@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:id="@+id/ly_search"
+    tools:context=".ui.merchant.MerchantActivity">
+
+    <com.example.a11699.mydemo.widget.TitleView
+        android:id="@+id/titleView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menustring="菜单"
+        app:title="查找商户"></com.example.a11699.mydemo.widget.TitleView>
+
+    <include
+        android:id="@+id/include_name"
+        layout="@layout/searchshop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"></include>
+
+    <include
+        android:id="@+id/include_type"
+        layout="@layout/searchshop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"></include>
+
+    <include
+        android:id="@+id/include_area"
+        layout="@layout/searchshop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"></include>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg"
+        android:text="开始搜索"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

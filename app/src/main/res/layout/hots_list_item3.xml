@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"  android:background="#ffffff"
+    android:orientation="horizontal"
+    >
+
+    <FrameLayout
+        android:id="@+id/ly_item1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+       >
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/item3_img1"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="center"
+            />
+
+        <TextView
+            android:id="@+id/item3_txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@android:color/darker_gray"
+            android:gravity="center"
+            android:text="米家超市"
+            android:textColor="#ffffff" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/item3_img2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            />
+
+        <TextView
+            android:id="@+id/item3_txt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@android:color/darker_gray"
+            android:gravity="center"
+            android:text="米家超市"
+            android:textColor="#ffffff" />
+    </FrameLayout>
+</LinearLayout>

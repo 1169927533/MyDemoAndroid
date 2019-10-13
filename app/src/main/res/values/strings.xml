@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MyDemo</string>
+    <string name="txt_register">注册</string>
+    <string name="swapre">切换Reycleview展示</string>
+    <string name="swavfl">切换ViewFlipper展示</string>
+</resources>

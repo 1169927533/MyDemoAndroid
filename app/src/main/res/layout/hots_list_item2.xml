@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"  android:background="#ffffff"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:id="@+id/ly_item2"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/item2_img1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="center" />
+
+        <TextView
+            android:id="@+id/item2_txt1"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="bottom"
+            android:background="@android:color/darker_gray"
+            android:gravity="center"
+            android:text="米家超市"
+            android:textColor="#ffffff" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/item2_img2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="center" />
+
+        <TextView
+            android:id="@+id/item2_txt2"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="bottom"
+            android:background="@android:color/darker_gray"
+            android:gravity="center"
+            android:text="米家超市"
+            android:textColor="#ffffff" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/item2_img3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="center" />
+
+        <TextView
+            android:id="@+id/item2_txt3"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="bottom"
+            android:background="@android:color/darker_gray"
+            android:gravity="center"
+            android:text="米家超市"
+            android:textColor="#ffffff" />
+    </FrameLayout>
+
+
+</LinearLayout>

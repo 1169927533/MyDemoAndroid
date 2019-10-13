@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#1A000000">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="2dp"
+        android:gravity="center"
+        android:text="请选择商户类型"
+        android:textStyle="bold"
+        android:background="@color/white"
+        android:textColor="@color/black"/>
+  <!--  <TextView
+        android:id="@+id/txt_searchone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="2dp"
+        android:gravity="center"
+        android:text="餐饮美食"
+        android:textStyle="bold"
+        android:background="@color/white"/>
+    <TextView
+        android:id="@+id/txt_searchtwo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="休闲娱乐"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="2dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/txt_searchthree"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="全部类型"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white" />-->
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycleview_search"
+        ></android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>
