@@ -26,3 +26,14 @@
 -dontwarn cn.sharesdk.**
 -dontwarn com.sina.**
 -dontwarn com.mob.**
+-dontoptimize
+-dontpreverify
+
+
+-dontwarn cn.jpush.**
+-keep class cn.jpush.** { *; }
+-keep class * extends cn.jpush.android.helpers.JPushMessageReceiver { *; }
+
+
+-dontwarn cn.jiguang.**
+-keep class cn.jiguang.** { *; }
