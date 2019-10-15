@@ -15,12 +15,27 @@
         app:menustring="菜单"
         app:title="用户评价"></com.example.a11699.mydemo.widget.TitleView>
 
-    <Button
-        android:id="@+id/btn_getpicture"
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="18dp"
-        android:text="获取图片" />
+        android:layout_margin="10dp"
+        android:text="用户评价"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <RatingBar
+        style="@style/Widget.AppCompat.RatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:max="5"
+        android:rating="3.5"
+        android:stepSize="0.5" />
+    <EditText
+        android:background="@drawable/bg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="输入你的评价" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -28,4 +43,10 @@
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:scaleType="fitXY" />
+    <Button
+        android:id="@+id/btn_getpicture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:text="获取图片" />
 </LinearLayout>

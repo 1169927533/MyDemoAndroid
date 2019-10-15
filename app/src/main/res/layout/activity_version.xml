@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.version.VersionActivity">
+
+    <com.example.a11699.mydemo.widget.TitleView
+        android:id="@+id/titleView"
+        style="@style/TitleStyle"
+        android:layout_width="match_parent"
+        android:background="@android:color/darker_gray"
+        app:menustring="菜单"
+        app:title="版本检测"></com.example.a11699.mydemo.widget.TitleView>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center"
+    android:text="发现新版本，请更新"
+    android:textColor="@color/color_ffb400"
+    android:textSize="16sp"
+    />
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/proBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:visibility="visible"
+        android:progressDrawable="@drawable/layer_progress"
+        />
+    <Button
+        android:id="@+id/bt_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:text="开始下载"
+        />
+</LinearLayout>

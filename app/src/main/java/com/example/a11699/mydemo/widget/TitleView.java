@@ -32,6 +32,7 @@ import com.example.a11699.mydemo.ui.login.LoginActivity;
 import com.example.a11699.mydemo.ui.shake.ShakeActivity;
 import com.example.a11699.mydemo.ui.shopflipper.ShowShopActivity;
 import com.example.a11699.mydemo.ui.userevaluation.UserEvaluationActivity;
+import com.example.a11699.mydemo.ui.version.VersionActivity;
 import com.example.a11699.mydemo.util.PopwindowUtil;
 
 import java.util.ArrayList;
@@ -140,6 +141,7 @@ public class TitleView extends RelativeLayout {
         list.add("定位演示");
         list.add("摇一摇搜周边");
         list.add("用户评价");
+        list.add("本本更新");
         TitleAdapter titleAdapter = new TitleAdapter(R.layout.itemtitle, list);
         recyclerView.setAdapter(titleAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(context));
@@ -164,6 +166,9 @@ public class TitleView extends RelativeLayout {
                         break;
                     case "用户评价":
                         context.startActivity(new Intent(context, UserEvaluationActivity.class));
+                        break;
+                    case "本本更新":
+                        context.startActivity(new Intent(context, VersionActivity.class));
                         break;
                 }
                 ((Activity) context).finish();
